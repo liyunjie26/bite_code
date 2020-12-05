@@ -1,0 +1,65 @@
+﻿生成启动时间为 2020/12/5 19:29:42。
+     1>项目“E:\大三相关文件\比特\c++\contact1_2\contact1_2\contact1_2.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt Contact.c ContactMain.c
+         ContactMain.c
+     1>e:\大三相关文件\比特\c++\contact1_2\contact1_2\contactmain.c(24): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(283) : 参见“scanf”的声明
+         Contact.c
+     1>e:\大三相关文件\比特\c++\contact1_2\contact1_2\contact.c(8): warning C4013: “malloc”未定义；假设外部返回 int
+     1>e:\大三相关文件\比特\c++\contact1_2\contact1_2\contact.c(31): warning C4013: “realloc”未定义；假设外部返回 int
+     1>e:\大三相关文件\比特\c++\contact1_2\contact1_2\contact.c(53): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(283) : 参见“scanf”的声明
+     1>e:\大三相关文件\比特\c++\contact1_2\contact1_2\contact.c(55): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(283) : 参见“scanf”的声明
+     1>e:\大三相关文件\比特\c++\contact1_2\contact1_2\contact.c(57): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(283) : 参见“scanf”的声明
+     1>e:\大三相关文件\比特\c++\contact1_2\contact1_2\contact.c(59): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(283) : 参见“scanf”的声明
+     1>e:\大三相关文件\比特\c++\contact1_2\contact1_2\contact.c(61): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(283) : 参见“scanf”的声明
+     1>e:\大三相关文件\比特\c++\contact1_2\contact1_2\contact.c(49): warning C4101: “tel”: 未引用的局部变量
+     1>e:\大三相关文件\比特\c++\contact1_2\contact1_2\contact.c(51): warning C4101: “age”: 未引用的局部变量
+     1>e:\大三相关文件\比特\c++\contact1_2\contact1_2\contact.c(47): warning C4101: “name”: 未引用的局部变量
+     1>e:\大三相关文件\比特\c++\contact1_2\contact1_2\contact.c(48): warning C4101: “sex”: 未引用的局部变量
+     1>e:\大三相关文件\比特\c++\contact1_2\contact1_2\contact.c(50): warning C4101: “addr”: 未引用的局部变量
+     1>e:\大三相关文件\比特\c++\contact1_2\contact1_2\contact.c(95): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(283) : 参见“scanf”的声明
+     1>e:\大三相关文件\比特\c++\contact1_2\contact1_2\contact.c(121): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(283) : 参见“scanf”的声明
+     1>e:\大三相关文件\比特\c++\contact1_2\contact1_2\contact.c(129): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\大三相关文件\比特\c++\contact1_2\contact1_2\contact.c(144): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(283) : 参见“scanf”的声明
+     1>e:\大三相关文件\比特\c++\contact1_2\contact1_2\contact.c(156): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(283) : 参见“scanf”的声明
+     1>e:\大三相关文件\比特\c++\contact1_2\contact1_2\contact.c(161): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(283) : 参见“scanf”的声明
+     1>e:\大三相关文件\比特\c++\contact1_2\contact1_2\contact.c(165): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(283) : 参见“scanf”的声明
+     1>e:\大三相关文件\比特\c++\contact1_2\contact1_2\contact.c(169): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(283) : 参见“scanf”的声明
+     1>e:\大三相关文件\比特\c++\contact1_2\contact1_2\contact.c(173): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(283) : 参见“scanf”的声明
+     1>e:\大三相关文件\比特\c++\contact1_2\contact1_2\contact.c(177): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(283) : 参见“scanf”的声明
+     1>e:\大三相关文件\比特\c++\contact1_2\contact1_2\contact.c(192): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(283) : 参见“scanf”的声明
+     1>e:\大三相关文件\比特\c++\contact1_2\contact1_2\contact.c(200): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\大三相关文件\比特\c++\contact1_2\contact1_2\contact.c(202): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\大三相关文件\比特\c++\contact1_2\contact1_2\contact.c(217): warning C4013: “free”未定义；假设外部返回 int
+     1>e:\大三相关文件\比特\c++\contact1_2\contact1_2\contact.c(225): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>e:\大三相关文件\比特\c++\contact1_2\contact1_2\contact.c(242): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>e:\大三相关文件\比特\c++\contact1_2\contact1_2\contact.c(252): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : 参见“fscanf”的声明
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\大三相关文件\比特\c++\contact1_2\Debug\contact1_2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\大三相关文件\比特\c++\contact1_2\Debug\contact1_2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\大三相关文件\比特\c++\contact1_2\Debug\contact1_2.lib" /MACHINE:X86 Debug\Contact.obj
+         Debug\ContactMain.obj
+         contact1_2.vcxproj -> E:\大三相关文件\比特\c++\contact1_2\Debug\contact1_2.exe
+     1>已完成生成项目“E:\大三相关文件\比特\c++\contact1_2\contact1_2\contact1_2.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.64
