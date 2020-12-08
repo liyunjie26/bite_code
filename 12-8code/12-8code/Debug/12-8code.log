@@ -1,0 +1,18 @@
+﻿生成启动时间为 2020/12/8 9:26:53。
+     1>项目“E:\大三相关文件\比特\c++\12-8code\12-8code\12-8code.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt 12_8code.c
+         12_8code.c
+     1>e:\大三相关文件\比特\c++\12-8code\12-8code\12_8code.c(13): warning C4028: 形参 1 与声明不同
+     1>e:\大三相关文件\比特\c++\12-8code\12-8code\12_8code.c(13): warning C4029: 声明的形参表不同于定义
+     1>e:\大三相关文件\比特\c++\12-8code\12-8code\12_8code.c(13): warning C4273: “remove”: dll 链接不一致
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(274) : 参见“remove”的前一个定义
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\大三相关文件\比特\c++\12-8code\Debug\12-8code.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\大三相关文件\比特\c++\12-8code\Debug\12-8code.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\大三相关文件\比特\c++\12-8code\Debug\12-8code.lib" /MACHINE:X86 Debug\12_8code.obj
+            正在创建库 E:\大三相关文件\比特\c++\12-8code\Debug\12-8code.lib 和对象 E:\大三相关文件\比特\c++\12-8code\Debug\12-8code.exp
+         12-8code.vcxproj -> E:\大三相关文件\比特\c++\12-8code\Debug\12-8code.exe
+     1>已完成生成项目“E:\大三相关文件\比特\c++\12-8code\12-8code\12-8code.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.33
