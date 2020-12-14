@@ -31,3 +31,8 @@ struct ListNode* removeElements(struct ListNode* head, int val)
 		}
 	}
 }
+
+
+//1->2->3->4->5->NULL
+//5->4->3->2->1->NULL
+//解析：如果交换，对于链表来说过于麻烦故采用建立新的链表并且采取头插的方式
