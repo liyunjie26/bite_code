@@ -119,21 +119,20 @@ struct ListNode* FindKthToTail(struct ListNode* pListHead, unsigned int k)
 	struct ListNode* key, *fast;
 	key = pListHead;
 	fast = pListHead;
-	while (key&&fast)
+	while (k--)
 	{
-		fast = fast->next;
-		k--;
-	}
-	if (k == 0)
-	{
-		while (fast)
-		{
-			key = key->next;
+		if (fast)
 			fast = fast->next;
-		}
-		return key;
+		else
+			return NULL;
 	}
-	return NULL;
+	while (fast)
+	{
+		key = key->next;
+		fast = fast->next;
+	}
+	return key;
+	
 }
 /*将两个升序链表合并为一个新的 升序 链表并返回。新链表是通过拼接给定的两个链表的所有节点组成的。 
 
@@ -207,13 +206,13 @@ struct ListNode* mergeTwoLists1(struct ListNode* l1, struct ListNode* l2) {
 		{
 			
 				newtail->next = cur1;
-				newtail->next = newtail->next;
+				newtail = newtail->next;
 				cur1 = cur1->next;
 		}
 		else
 		{
 			 newtail->next = cur2;
-			 newtail->next = newtail->next;
+			 newtail = newtail->next;
 			 cur2 = cur2->next;
 		}
 
@@ -223,7 +222,7 @@ struct ListNode* mergeTwoLists1(struct ListNode* l1, struct ListNode* l2) {
 	if (cur2 == NULL)
 		newtail = cur1;
 	struct ListNode* head;
-	head == newhead->next;
+	head = newhead->next;
 	free(newhead);
 	return head;
 }
