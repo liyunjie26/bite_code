@@ -1,4 +1,6 @@
 #include<stdio.h>
+#include<stdlib.h>
+
 typedef int LTDataType;
 typedef struct ListNode
 {
@@ -8,12 +10,12 @@ typedef struct ListNode
 }ListNode;
 typedef struct List
 {
-	ListNode* _head;
+	struct ListNode* _head;
 }List;
 ListNode* ListCreate(LTDataType val)//创建新节点
 {
 
-	struct ListNode* node = (struct ListNode*)malloc(sizeof(ListNode));
+	struct ListNode* node = (struct ListNode*)malloc(sizeof(struct ListNode));
 	node->_val = val;
 	node->_prev = NULL;
 	node->_next = NULL;
@@ -21,9 +23,8 @@ ListNode* ListCreate(LTDataType val)//创建新节点
 }
 void listInit(struct List* lst)
 {
-	lst->_head=ListCreate(0);
-	lst->_head->_prev = lst->_head;
-	lst->_head->_next = lst->_head;
+	lst->_head = (struct ListNode*)malloc(sizeof(struct ListNode));
+	lst->_head->_prev = lst->_head->_next = lst->_head;
 }
 void ListPushBack(List* lst, LTDataType x)//尾插
 {
@@ -59,11 +60,11 @@ void listpophead(struct List* lst)//头删
 {
 	if (lst->_head->_next == lst->_head)
 		return;
-	struct ListNode* next = lst->_head->_next;
-	struct ListNode* nextnext = next->_next;
-	free(next);
-	lst->_head->_next = nextnext;
-	nextnext->_prev = lst->_head;
+	struct ListNode* cur = lst->_head->_next;
+	struct ListNode* curnext = cur->_next;
+	free(cur);
+	lst->_head->_next = curnext;
+	curnext->_prev = lst->_head;
 
 }
 void listInsert(ListNode* node, LTDataType val)//在任意节点-之前插入新节点
@@ -85,7 +86,7 @@ void listErase(ListNode* node)//删除任意节点
 	next->_prev = prev;
 	free(node);
 }
-void listprint(List* lst)
+void listprint(List* lst)//打印
 {
 	if (lst->_head->_next == lst->_head)
 		return;
