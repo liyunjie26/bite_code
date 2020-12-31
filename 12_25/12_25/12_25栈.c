@@ -2,7 +2,7 @@
 #include<stdlib.h>
 
 typedef int QDateType;
-typedef struct QNode
+typedef struct QNode//╤тап
 {
 	struct QNode* _next;
 	QDateType _val;
